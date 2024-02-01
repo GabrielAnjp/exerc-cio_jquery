@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    padding: 16px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: aqua;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form, h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.list {
+    padding: 24px 0;
+    text-align: center;
+    display: flex;
+}
+
+ul, li {
+    padding: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
